@@ -146,4 +146,4 @@ summarised_dataset <- summarise_all(by_activity_and_subject, funs(mean))
 
 setwd("../../")
 
-write.table(features_dataset_with_activity_names_and_subjects, row.name=FALSE)
+write.table(summarised_dataset, row.name=FALSE)
